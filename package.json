@@ -42,7 +42,8 @@
     "typescript": "^1.8.10"
   },
   "dependencies": {},
-  "pre-commit": [
-    "build"
-  ]
+  "pre-commit": {
+    "run": ["build"],
+    "silent": false
+  }
 }
