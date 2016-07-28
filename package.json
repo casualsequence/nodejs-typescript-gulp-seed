@@ -45,9 +45,9 @@
   "dependencies": {},
   "pre-commit": {
     "run": [
-      "foo",
       "build"
     ],
-    "silent": false
+    "silent": false,
+    "colors": true
   }
 }
