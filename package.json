@@ -48,6 +48,6 @@
       "build"
     ],
     "silent": false,
-    "colors": true
+    "colors": false
   }
 }
