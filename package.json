@@ -24,7 +24,8 @@
     "lint": "gulp tslint",
     "package": "gulp package-transpiled-javascript",
     "postinstall": "npm run install-typings",
-    "transpile": "gulp transpile"
+    "transpile": "gulp transpile",
+    "foo": "echo \"hello world\""
   },
   "devDependencies": {
     "del": "^2.2.1",
@@ -44,7 +45,7 @@
   "dependencies": {},
   "pre-commit": {
     "run": [
-      "build"
+      "foo"
     ],
     "silent": false
   }
